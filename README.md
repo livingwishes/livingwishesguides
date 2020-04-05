@@ -1,6 +1,10 @@
 # livingwishesguides
 
+Fedora 32 
+
 #Fedora Packages
+
+#https://github.com/ChrisTitusTech/fedora-setup/blob/master/fedora.packages
 
 #https://tecadmin.net/install-atom-text-editor-on-fedora/ link to install atom
  atom
