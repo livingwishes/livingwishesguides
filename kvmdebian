@@ -1,0 +1,23 @@
+https://www.cyberciti.biz/faq/install-kvm-server-debian-linux-9-headless-server/
+
+How to install KVM server on Debian Linux 9 Headless Server
+last updated May 8, 2018 in Categories Debian / Ubuntu, Linux KVM, Virtualization
+
+Kernel-based Virtual Machine (KVM) is a virtualization module for the Linux kernel that turns it into a hypervisor. How can I install KVM with bridged networking, setup guest operating system as the back-end virtualization technology for non-graphic Debain Linux 9.x server?
+
+You can use KVM to run multiple operating systems such as Windows, *BSD, Linux distribution using virtual machines. Each virtual machine has its private disk, graphics card, a network card and more.
+
+Advertisements
+
+Steps for install KVM server on Debian Linux 9.x server
+
+    The host server located in the remote data center and it is a headless server.
+    All commands in this tutorial typed over the ssh based session.
+    You need a vnc client to install the guest operating system.
+    In this tutorial, you will learn how to install KVM software on Debian Linux 9.x server and use KVM to setup your first guest VM.
+
+Follow installation steps of KVM on Debian Linux 9.x headless sever
+Step 1: Install kvm
+
+Type the following apt-get command/apt command:
+$ sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils libguestfs-tools genisoimage virtinst libosinfo-bin
